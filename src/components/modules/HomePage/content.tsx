@@ -1,6 +1,7 @@
 import FeaturedProducts from "@/components/common/featuredProducts";
 import { BackgroundImage, Button, Image } from "@mantine/core";
 import { ShoppingBag } from "lucide-react";
+import WhyChooseUS from "@/components/common/WhyChooseUS";
 
 export default function Content() {
     const collection =[
@@ -109,6 +110,9 @@ export default function Content() {
                         <Button color={"black"} radius={"xl"} >Learn About Our Artisans</Button>
                     </div>
                 </div>
+            </div>
+            <div className={"mx-36 "}>
+                <WhyChooseUS/>
             </div>
         </div>
     );

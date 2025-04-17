@@ -1,11 +1,10 @@
 import MainContent from "../components/modules/HomePage/content";
 import HomeLayout from "@/layouts/HomeLayout";
 
-const Home = () => {
-    return (
 
-        <MainContent />
-    );
+
+const Home = () => {
+  return <MainContent />
 };
 
 export default Home;
