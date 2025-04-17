@@ -4,7 +4,7 @@ import HomeLayout from "@/layouts/HomeLayout";
 
 
 const Home = () => {
-  return <MainContent />;
+  return <MainContent />
 };
 
 export default Home;

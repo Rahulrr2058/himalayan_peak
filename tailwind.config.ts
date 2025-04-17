@@ -11,8 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        secondary: "#212121",
+        secondary: "#181818",
         babyPink: "#F8EDED",
+        descriptionText:"#6C757D",
+        footer:"#212121",
       },
       fontFamily: {
         lexend: ['"Lexend"', '"sans-serif"'],

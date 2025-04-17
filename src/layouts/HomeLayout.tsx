@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import {Burger, Button, TextInput} from "@mantine/core";
+import {Burger, Button, Combobox, TextInput} from "@mantine/core";
 import {Search, ShoppingCart} from "lucide-react";
 import {useDisclosure} from "@mantine/hooks";
+import CommonFooter from "@/components/common/Footer";
+
+
 
 const Layout: React.FC<any> = ({ children }) =>{
 const [opened, { toggle }] = useDisclosure();
@@ -33,12 +36,14 @@ const [opened, { toggle }] = useDisclosure();
                     </div>
                     <div className="flex items-center gap-2 ">
                          <Burger opened={opened} onClick={toggle} aria-label="Toggle navigation" />
-                    <Button radius={"xl"} color={"black"}> Login </Button>
+                    <Button radius={"xl"} color={"black"} > Login </Button>
 
                     </div>
                 </div>
             <section>{children}</section>
-
+            <div>
+                <CommonFooter/>
+            </div>
         </main>
     );
 };
