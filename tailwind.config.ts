@@ -11,11 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        // Primary Pink color
-        "primary-theme": "#fff",
-        "button-theme": "#D9583E",
-        purpleText: "#e91e63",
-        babyPink: "#F4C2C2",
+        secondary: "#212121",
+        babyPink: "#F8EDED",
+      },
+      fontFamily: {
+        lexend: ['"Lexend"', '"sans-serif"'],
       },
     },
   },

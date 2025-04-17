@@ -1,5 +1,7 @@
-import MainContent from "../components/modules/content";
+import MainContent from "../components/modules/HomePage/content";
 import HomeLayout from "@/layouts/HomeLayout";
+
+
 
 const Home = () => {
   return <MainContent />;
