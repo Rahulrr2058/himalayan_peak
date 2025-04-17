@@ -15,7 +15,6 @@ export default function App({ Component, pageProps }: AppProps | any) {
   // const getLayout = Component.getLayout ?? ((page) => page)
   const router = useRouter(); 
   const getLayout = Component.getLayout ?? ((page: React.ReactElement) => page);
-
   return (
     <main>
      
