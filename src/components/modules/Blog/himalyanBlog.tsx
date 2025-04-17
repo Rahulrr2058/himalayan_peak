@@ -74,48 +74,40 @@ function TabsSection() {
                     <Tabs.List className="flex gap-3 justify-start">
                         <Tabs.Tab
                             value="all"
-                            component={Link}
-                            href="/"
+
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             All
                         </Tabs.Tab>
                         <Tabs.Tab
                             value="artisan"
-                            component={Link}
-                            href="#"
+
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             Artisan Stories
                         </Tabs.Tab>
                         <Tabs.Tab
                             value="cultural"
-                            component={Link}
-                            href="#"
+
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             Cultural Heritage
                         </Tabs.Tab>
                         <Tabs.Tab
                             value="craftsmanship"
-                            component={Link}
-                            href="#"
+
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             Craftsmanship
                         </Tabs.Tab>
                         <Tabs.Tab
                             value="travel"
-                            component={Link}
-                            href="#"
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             Travel
                         </Tabs.Tab>
                         <Tabs.Tab
                             value="#"
-                            component={Link}
-                            href="#"
                             className="px-4 py-2 text-sm font-medium text-white data-[active]:bg-black data-[active]:text-white bg-gray-300 hover:bg-gray-400 rounded-full transition"
                         >
                             Behind the Scenes
