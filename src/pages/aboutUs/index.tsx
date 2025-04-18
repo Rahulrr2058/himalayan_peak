@@ -1,10 +1,10 @@
 import HomeLayout from "@/layouts/HomeLayout";
-import HimalayanBlog from "@/components/modules/Blog/himalyanBlog";
+import AboutUS from "@/components/modules/AboutUs/aboutus";
 
 const Home = () => {
     return (
 
-        <HimalayanBlog  />
+        <AboutUS/>
     );
 };
 
